@@ -17,6 +17,9 @@
     "type": "git",
     "url": "https://github.com/corvid-agent/retry.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "typescript": "^5.3.0",
     "@types/bun": "latest"
