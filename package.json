@@ -1,0 +1,24 @@
+{
+  "name": "@corvid-agent/retry",
+  "version": "1.0.0",
+  "description": "Smart retry with exponential backoff, jitter, and circuit breaker pattern",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "test": "bun test",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": ["retry", "backoff", "exponential", "circuit-breaker", "resilience", "typescript"],
+  "author": "corvid-agent",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/corvid-agent/retry.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/bun": "latest"
+  }
+}
