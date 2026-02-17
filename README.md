@@ -1,5 +1,9 @@
 # @corvid-agent/retry
 
+[![CI](https://github.com/corvid-agent/retry/actions/workflows/ci.yml/badge.svg)](https://github.com/corvid-agent/retry/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/@corvid-agent/retry)](https://www.npmjs.com/package/@corvid-agent/retry)
+![zero deps](https://img.shields.io/badge/dependencies-0-brightgreen)
+
 Smart retry with exponential backoff, jitter, and circuit breaker pattern. Zero dependencies. TypeScript-first.
 
 ## Install
